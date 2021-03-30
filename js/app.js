@@ -187,7 +187,7 @@ for(let i=0; i<6; i++){
     }
 }
 
-
+alert('I\'m '+daily+ ' every day.');
 
 
 alert('Your score is '+score+ ' out of 7.');
