@@ -4,7 +4,7 @@
 
 **About Me, with a guessing game**
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app.
+I built this website because it was required of me in code 201. I added two more question.
 
 **Done By: Layana Baba**
 
