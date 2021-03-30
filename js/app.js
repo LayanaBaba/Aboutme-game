@@ -171,7 +171,7 @@ alert('My guessed number is 7');
 
 let daily=['studying' , 'listening to music' , 'playing sports' , 'eating' , 'reading', 'sleeping'];
 console.log(daily);
-let userDaily=prompt[('What do you expected that i do daily?')];
+let userDaily=prompt('What do you expected that i do daily?');
 
 for(let i=0; i<6; i++){
     
