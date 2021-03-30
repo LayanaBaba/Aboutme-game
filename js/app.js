@@ -175,7 +175,7 @@ let userDaily=prompt('What do you expected that i do daily?');
 
 for(let i=0; i<6; i++){
     
-        if (userDaily==daily[i]){
+        if (userDaily==daily[0]||userDaily==daily[1]||userDaily==daily[2]||userDaily==daily[3]||userDaily==daily[4]||userDaily==daily[5]||userDaily==daily[6]){
         alert('You are correct, I\'m '+userDaily+' every day.');
         console.log('You are correct, I\'m '+userDaily+' every day.');
         score++;
@@ -186,7 +186,6 @@ for(let i=0; i<6; i++){
         console.log('Choose one else.');
     }
 }
-
 
 
 
