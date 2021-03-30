@@ -155,7 +155,7 @@ for(let i=0; i<4; i++){
             score++;
             break;
           }
-          else if(guessedNumber<=7){
+          else if(guessedNumber<7){
               alert('Your guessed is too low');
               console.log('Your guessed is too low');
           }    
@@ -188,6 +188,8 @@ for(let i=0; i<6; i++){
 }
 
 alert('I\'m '+daily+ ' every day.');
+
+
 
 
 alert('Your score is '+score+ ' out of 7.');
