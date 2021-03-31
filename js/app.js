@@ -134,33 +134,38 @@ function drivingLicense(){
 }
 drivingLicense();
 
-let mood=prompt('Am I nervous fast?');
+function mood(){
 
-switch(mood.toUpperCase()){ 
-    case 'YES':
-    console.log('Yes, that\'s right');
-    alert ('Yes, that\'s right');
-    score++;
-    break;
-   
-    case 'Y':
-    console.log('Yes, that\'s right');
-    alert ('Yes, that\'s right');
-    score++;
-    break;
-
-    case 'NO':
-    console.log('No, that\'s wrong');
-    alert ('No, that\'s wrong');
+    let mood=prompt('Am I nervous fast?');
     
-    break;
-
-    case 'N':
+    switch(mood.toUpperCase()){ 
+        case 'YES':
+        console.log('Yes, that\'s right');
+        alert ('Yes, that\'s right');
+        score++;
+        break;
+       
+        case 'Y':
+        console.log('Yes, that\'s right');
+        alert ('Yes, that\'s right');
+        score++;
+        break;
+    
+        case 'NO':
         console.log('No, that\'s wrong');
         alert ('No, that\'s wrong');
         
         break;
+    
+        case 'N':
+            console.log('No, that\'s wrong');
+            alert ('No, that\'s wrong');
+            
+            break;
+    }
 }
+mood();
+
 alert('I guessed number between 0 and 10, Enter the number that I choosed.');
 let guessedNumber = null;
 let myGuessed=7;
