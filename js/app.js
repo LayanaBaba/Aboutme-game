@@ -166,30 +166,34 @@ function mood(){
 }
 mood();
 
-alert('I guessed number between 0 and 10, Enter the number that I choosed.');
-let guessedNumber = null;
-let myGuessed=7;
-for(let i=0; i<4; i++){
-    
-        let guessedNumber= prompt('Enter my guessed number.');
-        if (myGuessed==guessedNumber){
-            alert('You are correct, my guessed number is 7');
-            console.log('You are correct, my guessed number is 7');
-            score++;
-            break;
-          }
-          else if(guessedNumber<7){
-              alert('Your guessed is too low');
-              console.log('Your guessed is too low');
-          }    
-           else{
-               alert('Your guessed is too high');
-               console.log('Your guessed is too high');
-           }
-    
-}
+function guessedNumber(){
 
-alert('My guessed number is 7'); 
+    alert('I guessed number between 0 and 10, Enter the number that I choosed.');
+    let guessedNumber = null;
+    let myGuessed=7;
+    for(let i=0; i<4; i++){
+        
+            let guessedNumber= prompt('Enter my guessed number.');
+            if (myGuessed==guessedNumber){
+                alert('You are correct, my guessed number is 7');
+                console.log('You are correct, my guessed number is 7');
+                score++;
+                break;
+              }
+              else if(guessedNumber<7){
+                  alert('Your guessed is too low');
+                  console.log('Your guessed is too low');
+              }    
+               else{
+                   alert('Your guessed is too high');
+                   console.log('Your guessed is too high');
+               }
+        
+    }
+    
+    alert('My guessed number is 7'); 
+}
+guessedNumber();
 
 
 let daily=['studying' , 'listening to music' , 'playing sports' , 'eating' , 'reading', 'sleeping'];
