@@ -4,33 +4,35 @@ let score=0;
 let userName=prompt("What's your name?");
 
 alert('Welcome '+userName);
+function favColor(){
 
-let favColor=prompt('Do I prefer black?');
-
-switch(favColor.toUpperCase()){ 
-    case 'YES':
-    console.log('Yes, that\'s right');
-    alert ('Yes, that\'s right');
-    score++;
-    break;
-   
-    case 'Y':
-    console.log('Yes, that\'s right');
-    alert ('Yes, that\'s right');
-    score++;
-    break;
-
-    case 'NO':
-    console.log('No, that\'s wrong');
-    alert ('No, that\'s wrong');
+    let favColor=prompt('Do I prefer black?');
     
-    break;
-
-    case 'N':
+    switch(favColor.toUpperCase()){ 
+        case 'YES':
+        console.log('Yes, that\'s right');
+        alert ('Yes, that\'s right');
+        score++;
+        break;
+       
+        case 'Y':
+        console.log('Yes, that\'s right');
+        alert ('Yes, that\'s right');
+        score++;
+        break;
+    
+        case 'NO':
         console.log('No, that\'s wrong');
         alert ('No, that\'s wrong');
         
         break;
+    
+        case 'N':
+            console.log('No, that\'s wrong');
+            alert ('No, that\'s wrong');
+            
+            break;
+    }
 }
 
 let favFood=prompt('Do I prefer Mansaf?');
