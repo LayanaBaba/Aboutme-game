@@ -24,7 +24,9 @@ I built this website because it was required of me in code 201. I added two more
 * >How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
  I expected it to take half an hour, but it took two hours of hard work. 
 
- Osama was Driver on: https://github.com/OsamaBaker/Aboutme-game-1
+ Osama Baker was Driver on: https://github.com/OsamaBaker/Aboutme-game-1
+
+Layana Baba was Navigator on: https://github.com/OsamaBaker/Aboutme-game-1
 
 
 
