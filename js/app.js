@@ -145,6 +145,7 @@ switch(mood.toUpperCase()){
         break;
 }
 alert('I guessed number between 0 and 10, Enter the number that I choosed.');
+let guessedNumber = null;
 let myGuessed=7;
 for(let i=0; i<4; i++){
     
@@ -171,7 +172,36 @@ alert('My guessed number is 7');
 
 let daily=['studying' , 'listening to music' , 'playing sports' , 'eating' , 'reading', 'sleeping'];
 console.log(daily);
-let userDaily=prompt('What do you expected that i do daily?');
+
+let attempt=6;
+hasAttempt: while (attempt){
+    let userDaily=prompt('What do you expected that i do daily?');
+    attempt=attempt-1;
+    for (let i=0; i<daily.length; i++){
+        if (userDaily===daily[i]){
+            alert('You are correct, I\'m '+userDaily+' every day.');
+            score++;
+            break hasAttempt;     
+        }
+    }
+    alert('Choose one else.')
+}
+
+if (!attempt){
+    alert('I\'m '+daily+ ' every day.');
+}
+
+
+
+
+
+
+
+
+
+
+
+/*let userDaily=prompt('What do you expected that i do daily?');
 
 for(let i=0; i<6; i++){
     
@@ -185,9 +215,9 @@ for(let i=0; i<6; i++){
         prompt('Choose one else.');
         console.log('Choose one else.');
     }
-}
+}*/
 
-alert('I\'m '+daily+ ' every day.');
+
 
 
 
