@@ -173,7 +173,7 @@ function guessedNumber(){
     let myGuessed=7;
     for(let i=0; i<4; i++){
         
-            let guessedNumber= prompt('Enter my guessed number.');
+            guessedNumber= prompt('Enter my guessed number.');
             if (myGuessed==guessedNumber){
                 alert('You are correct, my guessed number is 7');
                 console.log('You are correct, my guessed number is 7');
@@ -199,10 +199,10 @@ function daily(){
 
     let daily=['studying' , 'listening to music' , 'playing sports' , 'eating' , 'reading', 'sleeping'];
     console.log(daily);
-    
+    let userDaily=null;
     let attempt=6;
     hasAttempt: while (attempt){
-        let userDaily=prompt('What do you expected that i do daily?');
+        userDaily=prompt('What do you expected that i do daily?');
         attempt=attempt-1;
         for (let i=0; i<daily.length; i++){
             if (userDaily===daily[i]){
