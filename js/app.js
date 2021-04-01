@@ -10,25 +10,25 @@ function favColor(){
     
     switch(favColor.toUpperCase()){ 
         case 'YES':
-        console.log('Yes, that\'s right');
+        
         alert ('Yes, that\'s right');
         score++;
         break;
        
         case 'Y':
-        console.log('Yes, that\'s right');
+       
         alert ('Yes, that\'s right');
         score++;
         break;
     
         case 'NO':
-        console.log('No, that\'s wrong');
+        
         alert ('No, that\'s wrong');
         
         break;
     
         case 'N':
-            console.log('No, that\'s wrong');
+            
             alert ('No, that\'s wrong');
             
             break;
@@ -42,25 +42,25 @@ function favFood(){
     
     switch(favFood.toUpperCase()){ 
         case 'YES':
-        console.log('Yes, that\'s right');
+        
         alert ('Yes, that\'s right');
         score++;
         break;
        
         case 'Y':
-        console.log('Yes, that\'s right');
+        
         alert ('Yes, that\'s right');
         score++;
         break;
     
         case 'NO':
-        console.log('No, that\'s wrong');
+        
         alert ('No, that\'s wrong');
         
         break;
     
         case 'N':
-            console.log('No, that\'s wrong');
+           
             alert ('No, that\'s wrong');
             
             break;
@@ -76,25 +76,25 @@ function age(){
     
     switch(age.toUpperCase()){ 
         case 'YES':
-        console.log('Yes, that\'s right');
+        
         alert ('Yes, that\'s right');
         score++;
         break;
        
         case 'Y':
-        console.log('Yes, that\'s right');
+        
         alert ('Yes, that\'s right');
         score++;
         break;
     
         case 'NO':
-        console.log('No, that\'s wrong');
+        
         alert ('No, that\'s wrong');
        
         break;
     
         case 'N':
-            console.log('No, that\'s wrong');
+            
             alert ('No, that\'s wrong');
             
             break;
@@ -108,25 +108,25 @@ function drivingLicense(){
     
     switch(drivingLicense.toUpperCase()){ 
         case 'YES':
-        console.log('Yes, that\'s right');
+       
         alert ('Yes, that\'s right');
         score++;
         break;
        
         case 'Y':
-        console.log('Yes, that\'s right');
+        
         alert ('Yes, that\'s right');
         score++;
         break;
     
         case 'NO':
-        console.log('No, that\'s wrong');
+        
         alert ('No, that\'s wrong');
         
         break;
     
         case 'N':
-            console.log('No, that\'s wrong');
+           
             alert ('No, that\'s wrong');
             
             break;
@@ -140,25 +140,25 @@ function mood(){
     
     switch(mood.toUpperCase()){ 
         case 'YES':
-        console.log('Yes, that\'s right');
+       
         alert ('Yes, that\'s right');
         score++;
         break;
        
         case 'Y':
-        console.log('Yes, that\'s right');
+        
         alert ('Yes, that\'s right');
         score++;
         break;
     
         case 'NO':
-        console.log('No, that\'s wrong');
+        
         alert ('No, that\'s wrong');
         
         break;
     
         case 'N':
-            console.log('No, that\'s wrong');
+           
             alert ('No, that\'s wrong');
             
             break;
@@ -176,17 +176,17 @@ function guessedNumber(){
             guessedNumber= prompt('Enter my guessed number.');
             if (myGuessed==guessedNumber){
                 alert('You are correct, my guessed number is 7');
-                console.log('You are correct, my guessed number is 7');
+                
                 score++;
                 break;
               }
               else if(guessedNumber<7){
                   alert('Your guessed is too low');
-                  console.log('Your guessed is too low');
+                  
               }    
                else{
                    alert('Your guessed is too high');
-                   console.log('Your guessed is too high');
+                  
                }
         
     }
@@ -220,6 +220,40 @@ function daily(){
 }
 
 daily();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

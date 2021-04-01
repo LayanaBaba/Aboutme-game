@@ -3,9 +3,13 @@ h1{
     color: blue;
     background-color: cadetblue;
     height: 40px;
-    
+    font-family: 'IM Fell English SC', serif;
+    position: relative
+
 
 }
 
 
-
+div{
+    font-family: 'Dela Gothic One', cursive;
+}
